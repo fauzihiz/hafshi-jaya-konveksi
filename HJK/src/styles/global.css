@@ -1,0 +1,26 @@
+@import "tailwindcss";
+@import "@fontsource/inter/400.css";
+@import "@fontsource/inter/500.css";
+@import "@fontsource/inter/600.css";
+@import "@fontsource/inter/700.css";
+@import "@fontsource/inter/800.css";
+
+@plugin "daisyui";
+
+@theme {
+  --font-sans: 'Inter', sans-serif;
+  --color-primary: #1e3a8a; /* blue-900 */
+  --color-primary-hover: #1e40af; /* blue-800 */
+  --color-secondary: #0f172a; /* slate-900 */
+  --color-accent: #f59e0b; /* amber-500 */
+}
+
+@layer base {
+  html {
+    font-family: 'Inter', sans-serif;
+    scroll-behavior: smooth;
+  }
+  body {
+    @apply bg-slate-50 text-slate-800;
+  }
+}
