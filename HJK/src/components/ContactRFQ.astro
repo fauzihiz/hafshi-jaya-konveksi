@@ -14,22 +14,22 @@
         <h3 class="text-2xl font-bold text-slate-900 mb-6">Formulir Request for Quotation (RFQ)</h3>
         <p class="text-slate-600 mb-8">Isi formulir ini untuk mendapatkan estimasi harga awal. Anda juga bisa langsung chat kami melalui WhatsApp.</p>
         
-        <form class="space-y-4">
+        <form id="rfq-form" class="space-y-4">
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div class="form-control w-full">
               <label class="label"><span class="label-text font-medium text-slate-700">Nama Lengkap / Instansi</span></label>
-              <input type="text" placeholder="Masukkan nama..." class="input input-bordered w-full bg-white border-slate-300" />
+              <input type="text" id="rfq-nama" placeholder="Masukkan nama..." class="input input-bordered w-full bg-white border-slate-300" />
             </div>
             <div class="form-control w-full">
               <label class="label"><span class="label-text font-medium text-slate-700">Nomor WhatsApp</span></label>
-              <input type="text" placeholder="08..." class="input input-bordered w-full bg-white border-slate-300" />
+              <input type="text" id="rfq-nomor" placeholder="08..." class="input input-bordered w-full bg-white border-slate-300" />
             </div>
           </div>
           
           <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
             <div class="form-control w-full">
               <label class="label"><span class="label-text font-medium text-slate-700">Jenis Produk</span></label>
-              <select class="select select-bordered bg-white border-slate-300 font-normal">
+              <select id="rfq-produk" class="select select-bordered bg-white border-slate-300 font-normal">
                 <option disabled selected>Pilih produk...</option>
                 <option>Kemeja PDH / PDL</option>
                 <option>Kaos / Polo Shirt</option>
@@ -41,7 +41,7 @@
             </div>
             <div class="form-control w-full">
               <label class="label"><span class="label-text font-medium text-slate-700">Estimasi Jumlah (Pcs)</span></label>
-              <select class="select select-bordered bg-white border-slate-300 font-normal">
+              <select id="rfq-jumlah" class="select select-bordered bg-white border-slate-300 font-normal">
                 <option disabled selected>Pilih rentang jumlah...</option>
                 <option>24 - 50 Pcs (Minimum)</option>
                 <option>51 - 100 Pcs</option>
@@ -53,16 +53,17 @@
           
           <div class="form-control w-full">
             <label class="label"><span class="label-text font-medium text-slate-700">Catatan Khusus / Deskripsi Pesanan</span></label>
-            <textarea class="textarea textarea-bordered h-24 bg-white border-slate-300" placeholder="Jelaskan secara singkat jenis bahan yang dimau, titik bordir, atau detail lain jika ada..."></textarea>
+            <textarea id="rfq-catatan" class="textarea textarea-bordered h-24 bg-white border-slate-300" placeholder="Jelaskan secara singkat jenis bahan yang dimau, titik bordir, atau detail lain jika ada..."></textarea>
           </div>
           
           <div class="pt-4 flex flex-col sm:flex-row gap-4">
             <button type="submit" class="btn btn-primary flex-1 shadow-lg shadow-primary/30 text-white">Kirim Permintaan (RFQ)</button>
-            <a href="https://wa.me/6281234567890" target="_blank" class="btn btn-success text-white flex items-center gap-2 flex-1 shadow-lg shadow-success/30">
+            <a href="https://wa.me/6287880455792?text=Halo%20Admin%20Hafshi%20Jaya%20Konveksi,%20saya%20tertarik%20untuk%20bertanya-tanya%20lebih%20lanjut." target="_blank" class="btn btn-success text-white flex items-center gap-2 flex-1 shadow-lg shadow-success/30">
               <svg class="w-5 h-5" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51a12.8 12.8 0 00-.57-.01c-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg>
               Chat WhatsApp Admin
             </a>
           </div>
+          <p id="rfq-error" class="text-red-500 font-medium text-sm mt-2 hidden">Silakan isi kolom yang ditandai merah terlebih dahulu.</p>
         </form>
       </div>
       
@@ -89,7 +90,7 @@
               </div>
               <div>
                 <h4 class="font-semibold text-slate-100">Telepon & WhatsApp</h4>
-                <p class="text-slate-400 mt-1">+62 812-3456-7890</p>
+                <p class="text-slate-400 mt-1">+62 878-8045-5792</p>
               </div>
             </div>
             
@@ -120,3 +121,69 @@
     </div>
   </div>
 </section>
+
+<script>
+  const form = document.getElementById('rfq-form');
+  const errorMsg = document.getElementById('rfq-error');
+  
+  if (form) {
+    form.addEventListener('submit', (e) => {
+      e.preventDefault();
+      
+      const namaInput = document.getElementById('rfq-nama') as HTMLInputElement;
+      const nomorInput = document.getElementById('rfq-nomor') as HTMLInputElement;
+      const produkInput = document.getElementById('rfq-produk') as HTMLSelectElement;
+      const jumlahInput = document.getElementById('rfq-jumlah') as HTMLSelectElement;
+      const catatanInput = document.getElementById('rfq-catatan') as HTMLTextAreaElement;
+
+      let isValid = true;
+
+      // Reset styles
+      if(namaInput) { namaInput.classList.remove('border-red-500', 'ring-1', 'ring-red-500', 'input-error'); namaInput.classList.add('border-slate-300'); }
+      if(nomorInput) { nomorInput.classList.remove('border-red-500', 'ring-1', 'ring-red-500', 'input-error'); nomorInput.classList.add('border-slate-300'); }
+      if(produkInput) { produkInput.classList.remove('border-red-500', 'ring-1', 'ring-red-500', 'select-error'); produkInput.classList.add('border-slate-300'); }
+      if(jumlahInput) { jumlahInput.classList.remove('border-red-500', 'ring-1', 'ring-red-500', 'select-error'); jumlahInput.classList.add('border-slate-300'); }
+      if(errorMsg) errorMsg.classList.add('hidden');
+
+      if (!namaInput?.value.trim()) {
+        namaInput?.classList.remove('border-slate-300');
+        namaInput?.classList.add('border-red-500', 'ring-1', 'ring-red-500', 'input-error');
+        isValid = false;
+      }
+      if (!nomorInput?.value.trim()) {
+        nomorInput?.classList.remove('border-slate-300');
+        nomorInput?.classList.add('border-red-500', 'ring-1', 'ring-red-500', 'input-error');
+        isValid = false;
+      }
+      if (!produkInput?.value || produkInput.value === 'Pilih produk...') {
+        produkInput?.classList.remove('border-slate-300');
+        produkInput?.classList.add('border-red-500', 'ring-1', 'ring-red-500', 'select-error');
+        isValid = false;
+      }
+      if (!jumlahInput?.value || jumlahInput.value === 'Pilih rentang jumlah...') {
+        jumlahInput?.classList.remove('border-slate-300');
+        jumlahInput?.classList.add('border-red-500', 'ring-1', 'ring-red-500', 'select-error');
+        isValid = false;
+      }
+
+      if (!isValid) {
+        if(errorMsg) errorMsg.classList.remove('hidden');
+        return;
+      }
+
+      const waNumber = '6287880455792';
+      const text = `Halo Admin Hafshi Jaya Konveksi, saya ingin melakukan Request for Quotation (RFQ) dengan detail berikut:%0A%0ANama: ${namaInput.value}%0ANomor WA: ${nomorInput.value}%0AJenis Produk: ${produkInput.value}%0AEstimasi Jumlah: ${jumlahInput.value}%0ACatatan: ${catatanInput.value || '-'}`;
+      
+      window.open(`https://wa.me/${waNumber}?text=${text}`, '_blank');
+    });
+
+    // Clear red border on input change
+    const inputs = form.querySelectorAll('input, select');
+    inputs.forEach(input => {
+      input.addEventListener('input', () => {
+        input.classList.remove('border-red-500', 'ring-1', 'ring-red-500', 'input-error', 'select-error');
+        input.classList.add('border-slate-300');
+      });
+    });
+  }
+</script>

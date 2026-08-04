@@ -17,68 +17,68 @@ Website company profile & landing page B2B untuk **Hafshi Jaya Konveksi**, vendo
 
 ### Tahap 1 — Audit Bisnis & Strategi
 
-- [ ] Finalisasi target pasar Tier 1 (Jabodetabek/Depok) & Tier 2 (Nasional)
-- [ ] Finalisasi target keyword per tier
-- [ ] Konfirmasi 3 kategori layanan utama: Seragam Kerja, Kaos & Polo, Jaket & Outerwear
-- [ ] Konfirmasi buyer persona (HRD/GA/Purchasing, Panitia Pengadaan/EO/Pengurus)
-- [ ] Konfirmasi value proposition/USP: garansi produksi, lokasi workshop jelas, free mockup & konsultasi
-- [ ] Tentukan CTA utama (RFQ via WhatsApp) & CTA sekunder (lihat katalog)
-- [ ] Siapkan foto mockup produk sementara untuk portofolio (sebelum data foto klien asli tersedia)
-- [ ] Tentukan skema MOQ berupa dropdown range (bukan angka pasti di teks website)
+- [x] Finalisasi target pasar Tier 1 (Jabodetabek/Depok) & Tier 2 (Nasional)
+- [x] Finalisasi target keyword per tier
+- [x] Konfirmasi 3 kategori layanan utama: Seragam Kerja, Kaos & Polo, Jaket & Outerwear
+- [x] Konfirmasi buyer persona (HRD/GA/Purchasing, Panitia Pengadaan/EO/Pengurus)
+- [x] Konfirmasi value proposition/USP: garansi produksi, lokasi workshop jelas, free mockup & konsultasi
+- [x] Tentukan CTA utama (RFQ via WhatsApp) & CTA sekunder (lihat katalog)
+- [x] Siapkan foto mockup produk sementara untuk portofolio (sebelum data foto klien asli tersedia)
+- [x] Tentukan skema MOQ berupa dropdown range (bukan angka pasti di teks website)
 
 ### Tahap 2 — Arsitektur & Konten Website
 
 #### Site Architecture (Hybrid Single-Page Landing + Category Pages)
-- [ ] `/` — Homepage / landing page konversi B2B
-- [ ] `/layanan/seragam-kerja` — Kemeja PDH/PDL, Wearpack, Uniform Kantor
-- [ ] `/layanan/kaos-polo` — Polo Promosi, Kaos Event, Gathering
-- [ ] `/layanan/jaket-outerwear` — Jaket Bomber, Parka, Vest, Almamater
-- [ ] `/tentang-kami` — Company profile, legalitas, fasilitas produksi
+- [x] `/` — Homepage / landing page konversi B2B
+- [x] `/layanan/seragam-kerja` — Kemeja PDH/PDL, Wearpack, Uniform Kantor
+- [x] `/layanan/kaos-polo` — Polo Promosi, Kaos Event, Gathering
+- [x] `/layanan/jaket-outerwear` — Jaket Bomber, Parka, Vest, Almamater
+- [x] `/tentang-kami` — Company profile, legalitas, fasilitas produksi
 
 #### Homepage Sections
-- [ ] **Section 1 — Hero**
-  - [ ] Visual background workshop (foto/video, dark overlay)
-  - [ ] Badge: "Pabrik & Konveksi Seragam B2B — Depok / Jabodetabek"
-  - [ ] H1: "Mitra Pengadaan Seragam & Apparel Kantor Terpercaya dengan Garansi Tepat Waktu"
-  - [ ] Sub-headline layanan
-  - [ ] CTA primer: "Konsultasi WhatsApp & Minta Penawaran" (link WA dengan template chat)
-  - [ ] CTA sekunder: "Unduh Katalog Produk (PDF)"
-  - [ ] 3 trust badge (garansi tepat waktu, gratis sampel & mockup, kirim seluruh Indonesia)
-- [ ] **Section 2 — Value Proposition / Why Choose Us**
-  - [ ] H2 + grid 4 pilar: Kualitas Standard Industri, Garansi Tepat Waktu & Retur, Sampel & Mockup Gratis, Workshop Fisik Transparan
-- [ ] **Section 3 — Katalog Produk & Jasa Utama**
-  - [ ] Card 1: Seragam & Kemeja Kerja (PDH/PDL/Wearpack)
-  - [ ] Card 2: Kaos & Polo Shirt Custom
-  - [ ] Card 3: Jaket, Outerwear & Rompi
-  - [ ] Card 4: Jas Almamater & Seragam Komunitas
-- [ ] **Section 4 — Cara Order / Alur Kerja (4 Steps)**
-  - [ ] Langkah 1: Konsultasi & Brief
-  - [ ] Langkah 2: Mockup & Penawaran (RFQ)
-  - [ ] Langkah 3: Pembayaran DP & Sampel
-  - [ ] Langkah 4: Produksi & Pengiriman
-- [ ] **Section 5 — Portofolio & Spesifikasi Produksi**
-  - [ ] Filter tabs: All | Kemeja PDH | Polo Shirt | Jaket | Wearpack
-  - [ ] Gallery foto produk close-up + caption (jenis bahan + jenis aplikasi)
-- [ ] **Section 6 — Legitimasi & Profil Workshop**
-  - [ ] Kolom kiri: deskripsi & legitimasi usaha
-  - [ ] Kolom kanan: lokasi, fasilitas produksi, area layanan
-- [ ] **Section 7 — Testimoni & FAQ**
-  - [ ] Testimoni placeholder
-  - [ ] FAQ accordion (MOQ, sampel sebelum produksi massal, estimasi waktu, retur/cacat produk, pengiriman luar Jabodetabek)
-- [ ] **Section 8 — Kontak, Form RFQ, & Maps**
-  - [ ] Form RFQ: Nama/Perusahaan, Jenis Produk (dropdown), Estimasi Jumlah (Pcs), Catatan/Upload Desain
-  - [ ] Embed Google Maps lokasi workshop Cilodong, Depok
+- [x] **Section 1 — Hero**
+  - [x] Visual background workshop (foto/video, dark overlay)
+  - [x] Badge: "Pabrik & Konveksi Seragam B2B — Depok / Jabodetabek"
+  - [x] H1: "Mitra Pengadaan Seragam & Apparel Kantor Terpercaya dengan Garansi Tepat Waktu"
+  - [x] Sub-headline layanan
+  - [x] CTA primer: "Konsultasi WhatsApp & Minta Penawaran" (link WA dengan template chat)
+  - [x] CTA sekunder: "Unduh Katalog Produk (PDF)"
+  - [x] 3 trust badge (garansi tepat waktu, gratis sampel & mockup, kirim seluruh Indonesia)
+- [x] **Section 2 — Value Proposition / Why Choose Us**
+  - [x] H2 + grid 4 pilar: Kualitas Standard Industri, Garansi Tepat Waktu & Retur, Sampel & Mockup Gratis, Workshop Fisik Transparan
+- [x] **Section 3 — Katalog Produk & Jasa Utama**
+  - [x] Card 1: Seragam & Kemeja Kerja (PDH/PDL/Wearpack)
+  - [x] Card 2: Kaos & Polo Shirt Custom
+  - [x] Card 3: Jaket, Outerwear & Rompi
+  - [x] Card 4: Jas Almamater & Seragam Komunitas
+- [x] **Section 4 — Cara Order / Alur Kerja (4 Steps)**
+  - [x] Langkah 1: Konsultasi & Brief
+  - [x] Langkah 2: Mockup & Penawaran (RFQ)
+  - [x] Langkah 3: Pembayaran DP & Sampel
+  - [x] Langkah 4: Produksi & Pengiriman
+- [x] **Section 5 — Portofolio & Spesifikasi Produksi**
+  - [x] Filter tabs: All | Kemeja PDH | Polo Shirt | Jaket | Wearpack
+  - [x] Gallery foto produk close-up + caption (jenis bahan + jenis aplikasi)
+- [x] **Section 6 — Legitimasi & Profil Workshop**
+  - [x] Kolom kiri: deskripsi & legitimasi usaha
+  - [x] Kolom kanan: lokasi, fasilitas produksi, area layanan
+- [x] **Section 7 — Testimoni & FAQ**
+  - [x] Testimoni placeholder
+  - [x] FAQ accordion (MOQ, sampel sebelum produksi massal, estimasi waktu, retur/cacat produk, pengiriman luar Jabodetabek)
+- [x] **Section 8 — Kontak, Form RFQ, & Maps**
+  - [x] Form RFQ: Nama/Perusahaan, Jenis Produk (dropdown), Estimasi Jumlah (Pcs), Catatan/Upload Desain
+  - [x] Embed Google Maps lokasi workshop Cilodong, Depok
 
 ### Tahap 3 — Technical SEO
 
 #### Meta Data
-- [ ] Meta title & description Homepage
-- [ ] Canonical URL Homepage
-- [ ] Meta title & description tiap sub-page layanan (`/layanan/seragam-kerja`, dst.)
-- [ ] Canonical URL tiap sub-page
+- [x] Meta title & description Homepage
+- [x] Canonical URL Homepage
+- [x] Meta title & description tiap sub-page layanan (`/layanan/seragam-kerja`, dst.)
+- [x] Canonical URL tiap sub-page
 
 #### Heading Structure
-- [ ] Implementasi hierarki H1–H3 sesuai struktur berikut:
+- [x] Implementasi hierarki H1–H3 sesuai struktur berikut:
   ```
   [H1] Konveksi Seragam Kantor & Vendor Apparel B2B Terpercaya
   ├── [H2] Mengapa Memilih Hafshi Jaya Konveksi?
@@ -97,25 +97,25 @@ Website company profile & landing page B2B untuk **Hafshi Jaya Konveksi**, vendo
   ```
 
 #### Open Graph & Social Tags
-- [ ] `og:type`, `og:title`, `og:description`, `og:image`, `og:url`
-- [ ] `twitter:card` (summary_large_image)
+- [x] `og:type`, `og:title`, `og:description`, `og:image`, `og:url`
+- [x] `twitter:card` (summary_large_image)
 
 #### Schema Markup (JSON-LD)
-- [ ] `LocalBusiness` schema (nama, alamat, geo, jam operasional, telepon)
-- [ ] `Service` schema dengan `OfferCatalog` (Kemeja PDH/PDL, Polo Promosi, Wearpack & Jaket)
-- [ ] Pasang di `<head>` — komponen layout Astro (mis. `Layout.astro` atau lewat `<script type="application/ld+json">`)
+- [x] `LocalBusiness` schema (nama, alamat, geo, jam operasional, telepon)
+- [x] `Service` schema dengan `OfferCatalog` (Kemeja PDH/PDL, Polo Promosi, Wearpack & Jaket)
+- [x] Pasang di `<head>` — komponen layout Astro (mis. `Layout.astro` atau lewat `<script type="application/ld+json">`)
 
 #### Technical Assets
-- [ ] `public/robots.txt`
-- [ ] `public/sitemap.xml` (Homepage + 4 halaman layanan)
-- [ ] `public/manifest.json` (PWA support)
-- [ ] Favicon set (192x192, 512x512)
+- [x] `public/robots.txt`
+- [x] `public/sitemap.xml` (Homepage + 4 halaman layanan)
+- [x] `public/manifest.json` (PWA support)
+- [x] Favicon set (192x192, 512x512)
 
 #### Core Web Vitals & Image Optimization
-- [ ] Semua gambar dikompres ke format `.webp`/`.avif`
-- [ ] Semua `<img>`/`<Image/>` pakai alt text deskriptif B2B (contoh: `"Hasil jahit kemeja PDH bahan Taipan Drill oleh Hafshi Jaya Konveksi Depok"`)
-- [ ] Font loading pakai `display: swap` untuk cegah layout shift (CLS)
-- [ ] Target skor Google PageSpeed Insights > 90 (mobile & desktop)
+- [x] Semua gambar dikompres ke format `.webp`/`.avif`
+- [x] Semua `<img>`/`<Image/>` pakai alt text deskriptif B2B (contoh: `"Hasil jahit kemeja PDH bahan Taipan Drill oleh Hafshi Jaya Konveksi Depok"`)
+- [x] Font loading pakai `display: swap` untuk cegah layout shift (CLS)
+- [x] Target skor Google PageSpeed Insights > 90 (mobile & desktop)
 
 ---
 
@@ -130,3 +130,11 @@ Website company profile & landing page B2B untuk **Hafshi Jaya Konveksi**, vendo
 | Jam Operasional | Senin–Sabtu, 08:00–17:00 |
 
 > Catatan: Data seperti alamat lengkap, nomor telepon, dan koordinat geo di JSON-LD masih placeholder — update sebelum go-live.
+
+
+## 📝 To-Do List Lanjutan
+- [ ] Mengganti placeholder gambar produk di halaman Portofolio dan Layanan.
+- [ ] Mengganti placeholder iframe Google Maps di komponen ContactRFQ / Footer dengan lokasi asli.
+- [ ] Menambahkan dan menyesuaikan data asli pada Schema Markup JSON-LD (alamat lengkap, koordinat, nomor telepon).
+- [ ] Memastikan seluruh link halaman internal (seperti produk, syarat ketentuan, dll) berfungsi.
+- [ ] Menambahkan favicon tambahan (resolusi 192x192 dan 512x512) untuk PWA jika diperlukan.
